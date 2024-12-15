@@ -1,0 +1,7 @@
+xca-portable-2.8.0
+terraform/.terraform
+node_modules
+.env
+*.pdf
+*.cer
+*.zip

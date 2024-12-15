@@ -1,0 +1,20 @@
+{
+  "name": "signedpkmap",
+  "version": "1.0.0",
+  "description": "Demo project for signing public keys from x509 certs in a S3 bucket then storing the result by CommonName",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ang Ze Yu",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.705.0",
+    "@aws-sdk/client-s3": "^3.705.0",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@aws-sdk/types": "^3.696.0"
+  },
+  "license": "MIT"
+}
